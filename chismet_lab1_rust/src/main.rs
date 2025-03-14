@@ -1,3 +1,5 @@
+mod functions;
 fn main() {
-    println!("Hello, world!");
+    let b = functions::func(4f64);
+    println!("{b}");
 }
