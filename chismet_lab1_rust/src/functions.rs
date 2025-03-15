@@ -1,8 +1,4 @@
-/*
-pub fn recurs(n: i64) -> i64{
-    1
-}
-*/
+
 pub fn prnt(n: i64, a: f64, b: f64, absol: f64, eps: f64, x: f64){
     if n == 0 {
         println!("{:<5}{:<14}{:<14}{:<16}{:<14}{:<16}", "N", "a", "b", "|absolute|", "eps", "x");
